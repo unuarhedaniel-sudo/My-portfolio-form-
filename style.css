@@ -1,0 +1,72 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, sans-serif;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+}
+.container{
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 25px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h1{
+    text-align: center;
+    color: blueviolet;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: center;
+    color: blueviolet;
+}
+
+.formgroup{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+button{
+    padding: 11px 14px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.delete-btn{
+    background-color: aquamarine;
+    color: rgb(192, 31, 31);
+}
+
+.submit-btn{
+    width: 100%;
+    margin-top: 10px;
+    background-color: #e4e8ee;
+    color: rgb(10, 10, 2);
+}
+
+button:hover{
+    opacity: 0.85;
+}
+
+#successMessage{
+    color: #16803c;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+@media(max-width: 400px){
+    .container{
+        padding: 18px;
+    }
+}
+
