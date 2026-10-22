@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body>
+    
+    <div class="container">
+    <h1>Student Information</h1>
+    <p>Fill in all the fields below.</p>
+
+    <form id="studentform">
+
+    <div class="formgroup">
+        <label for="fullname">Full Name</label>
+        <div class="input-row">
+            <input type="text" id="fullname"placeholder="Enter your full name">
+            <button type="button" class="delete-btn" data-target="fullname">Del</button>
+
+        </div>
+    </div>
+
+    <div class="formgroup">
+        <label for="email">Email Address</label>
+        <div class="input-row">
+            <input type="text" id="email" placeholder="Enter your email">
+            <button type="button" class="delete-btn" data-target="email">Del</button>
+        </div>
+    </div>
+
+    <div class="formgroup">
+        <label for="phone">Phone Number</label>
+        <div class="input-row">
+            <input type="tel" id="phone" placeholder="Enter your phone number">
+            <button type="button" class="delete-btn" data-target="phone">Del</button>
+        </div>
+    </div>
+
+    <div class="formgroup">
+        <label for="age">Age</label>
+        <div class="input-row">
+            <input type="number" id="age" placeholder="Enter your Age">
+            <button type="button" class="delete-btn" data-target="age">Del</button>
+        </div>
+    </div>
+
+    <div class="formgroup">
+        <label for="course">Course</label>
+        <div class="input-row">
+            <input type="text" id="course" placeholder="Enter your course">
+            <button type="button" class="delete-btn" data-target="course">Del</button>
+        </div>
+    </div>
+
+    <button type="submit" class="submit-btn">Submit Form</button>
+    <button type="button" id="clearBtn" class="clear-btn">Clear All</button>
+
+    <p id="successMessage"></p>
+
+    </form>
+</div>
+
+
+</body>
+</html>
